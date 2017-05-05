@@ -1,0 +1,205 @@
+body {font-family: Ventura, Arial, sans-serif;
+	background-color: #FBFCFC;
+}
+
+ #container
+{ 
+	background-color: #EBEDEF ;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 1024px;
+	margin:auto;
+	margin-top: 10px;
+ 
+}
+
+
+.header {
+	position: inherit;
+	top: -10px;
+	background-color: #ABB2B9;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height:100px;
+	margin: auto;
+	width: 1024px;
+	
+}
+
+.header img {
+  float: left;
+  top:-10px;
+  border-left-width: 30px;
+  border-bottom-width: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
+	/* #DCD8CF #E6E8FA (pozadina cela) 3c4543 ovaj id sam izbacila: #navbar ul{	list-style-type: none;	position: fixed; margin: -5px;}!*/
+.navbar {
+	/*Nav bar z indeks ili fixed position*/
+	z-index: 1;
+	position: fixed;
+	margin-top: -10px;
+	left:50%;
+	margin-left:-254px;
+
+}
+
+.navbar a {
+    color: #E6E8FA;
+   
+}
+
+.navbar a:link, #navbar a:visited {
+     text-decoration: none;
+   	 color:  #acd1b2;
+      }
+
+.navbar li {
+	/*ovde sam uredila listu tabova za navigaciju!*/
+	display: inline;
+	padding:5px;
+	border: 2px solid #000000;
+	font-family: Tahoma, sans-serif;
+	color: #E6E8FA;
+	border-radius: 25px;
+	background-color: #6082B6;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	color: #E6E8FA;
+}
+
+h3{
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 5px grey;
+}
+
+.prviparagraf p
+{
+	position: relative;
+	float: inherit;
+	max-width: 960px;
+	margin: auto;
+}
+
+.prviparagraf img {
+    float: left;
+	height: 400px;
+	width: 400px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+/*slika bi trebalo da ima poziciju 	position: absolute;*/
+
+.prevoz img {
+    float: left;
+	height: 200px;
+	width: 200px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px;
+	
+}
+
+.img smestaj{
+	float: left;
+	height: 250px;
+	width: 250px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	margin: 10px 10px 10px 10px;
+	
+}
+.room {
+	display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+/*slika room nije u elipsastom okviru???*/
+.p {
+    float:left;
+	font-size: 1em;
+}
+
+/*border: #000000 1px solid; OVO JE PARAMETAR IZ DONJE TABELE*/
+.tabela {
+	
+	background-color: #acd1b2;
+	margin-right: 110px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 200px;
+	width: 400px;
+	position: inherit;
+}
+
+/* parametar dole je za tekst u tabeli ako se odlucim da vezem link po danima*/
+.tabela td {
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	color: #F0F8FF;
+}
+
+.tabela td img {
+	height: 75px;
+	width: 75px;
+	box-shadow: none;
+}
+
+.tabela th {
+	font-size: 1em;
+	font-weight: bold;
+	color: 	#F0F8FF;
+}
+
+
+#footer{
+	/*ne menjati nista!*/
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #404040;
+}
+
+#button{
+	
+	border: 3px solid #000000;
+<<<<<<< HEAD
+	border-radius: 5px;
+=======
+<<<<<<<<< saved version
+
+=========
+	border-radius: 5px;
+>>>>>>>>> local version
+>>>>>>> master
+	background-color: #6082B6;
+	height: 10%;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	padding: 10px 10px;
+  
+}
+
+.bold{
+	font-weight: bold;
+	font-size: 1em;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+
